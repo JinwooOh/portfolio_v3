@@ -1,0 +1,63 @@
+body {
+   background: #31343F;
+   transition: 1.0s all;
+   border:0.3em solid grey;
+}
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+hr{
+  border-color: green;
+}
+p{
+  font-size: 1.5em;
+}
+.navbar li { color: #000 }
+
+.changeColor1 {
+   background: #434756;
+}
+.changeColor2 {
+   background: #6f7690;
+}
+.changeColor3 {
+   background: #9a9fb1;
+}
+.container1 {
+  height: 100vh;
+  padding-top:4em;
+  text-align: center;
+  font-size: 5vh;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.container2 {
+  height: 100vh;
+  padding-top:4em ;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.container3 {
+  height: 100vh;
+  padding-top:4em;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#aboutMe{
+  padding: 2em 2em 2em 2em;
+}
+
+#thisState{
+  color: #E14D3D;
+  display: inline;
+}
+#props{
+  color: #9EA1B3;
+  display: inline;
+}
+#assign{
+  color: green;
+}
+* { color:#fff; text-decoration: none;}
