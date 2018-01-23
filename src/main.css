@@ -3,18 +3,32 @@ body {
    transition: 1.0s all;
    border:0.3em solid grey;
 }
+
 .navbar {
    background-color: transparent;
    background: transparent;
    border-color: transparent;
 }
+.navbar-default .navbar-brand {
+  color: white;
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+
 hr{
-  border-color: green;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  border-color: white;
 }
 p{
   font-size: 1.5em;
+  line-height: 1.8em;
 }
-.navbar li { color: #000 }
 
 .changeColor1 {
    background: #434756;
@@ -44,6 +58,12 @@ p{
   text-align: center;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
+.container4 {
+  height: 100vh;
+  padding-top:4em;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
 
 #aboutMe{
   padding: 2em 2em 2em 2em;
@@ -61,3 +81,68 @@ p{
   color: green;
 }
 * { color:#fff; text-decoration: none;}
+
+
+
+/* minimal sm icons */
+.socialbtns{
+  text-align: center;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+    margin: 0;
+    padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+    color: #FFF;
+    text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    -webkit-text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    -moz-text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    -o-text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    transition: all ease-out 0.5s;
+    -moz-transition: all ease-out 0.5s;
+    -webkit-transition: all ease-out 0.5s;
+    -o-transition: all ease-out 0.5s;
+}
+
+.socialbtns .fa:hover {
+    color: #000;
+    text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    -webkit-text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    -moz-text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    -o-text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    transition: all ease 0.5s;
+    -moz-transition: all ease-in 0.5s;
+    -webkit-transition: all ease-in 0.5s;
+    -o-transition: all ease-in 0.5s;
+}
