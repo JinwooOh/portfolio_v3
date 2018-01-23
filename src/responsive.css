@@ -5,6 +5,14 @@
   P{
     font-size: 18px;
   }
+  .navbar-collapse {
+    background: gray;
+  }
+  .navbar {
+     background-color: #31343F;
+     background: #31343F;
+     border-color: #31343F;
+  }
 }
 
 
