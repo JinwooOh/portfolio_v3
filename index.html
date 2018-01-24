@@ -84,14 +84,38 @@
     <section class="container3">
       <div id='projects'>
         <h1>Projects</h1>
+        <hr>
       </div>
     </section>
 
     <section class="container4">
-      <div id='contact'>
-        <h1>Contact</h1>
-        <div class="contactInfo">contact information</div>
-        <div class="contactForm">contact form</div>
+      <div id="contact" class="contact">
+        <div class="col-md-12 col-sm-12">
+          <h1>Get In Touch</h1>
+          <hr>
+          <p>Do you have an interesting project?
+          interested in doing a project together?
+          or simply want to have a chat?
+          Shoot me email! I will shortly get back to you.
+          Let's make a better world together!</p>
+        </div>
+        <div class="col-md-12 col-sm-12">
+          <form id="form">
+            <div class="form-group">
+              <label class='required'><span class="white">Name: </span></label>
+              <input class="form-control" type="text" name="name" value="" placeholder="Enter Name" id="name" required oninvalid="this.setCustomValidity('I want to know your name!')" onchange="this.setCustomValidity('')" type="text" />
+            </div>
+            <div class="form-group">
+              <label class='required'><span class="white">Email: </span></label>
+              <input class="form-control" type="text" name="email" value="" placeholder="Enter Email" id="email" required oninvalid="this.setCustomValidity('What is your email address?')" onchange="this.setCustomValidity('')" type="text" />
+            </div>
+            <div class="form-group">
+              <label class='required'><span class="white">Message: </span></label>
+              <textarea class="form-control" name="message" value="" placeholder="Enter Message" id="message" required oninvalid="this.setCustomValidity('I think you are missing something.')" onchange="this.setCustomValidity('')" type="text" /></textarea>
+            </div>
+
+            <button class="btn"><input id="submit" type="submit" value="Send message"/></button>
+        </div>
       </div>
     </section>
 

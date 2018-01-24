@@ -80,6 +80,14 @@ p{
   text-align: center;
 }
 
+.contact h1{
+	color: white;
+
+}
+.contact p{
+	color: white;
+}
+
 #aboutMe{
   padding: 3em 2em 2em 2em;
 }
@@ -87,8 +95,11 @@ p{
   padding: 3em 2em 2em 2em;
 }
 #contact{
-  padding: 31em 2em 2em 2em;
+  padding: 10em 2em 2em 2em;
 }
+
+
+
 #thisState{
   color: #E14D3D;
   display: inline;
