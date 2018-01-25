@@ -22,3 +22,8 @@
     margin-right: auto;
     margin-left: auto;
   }
+  body{
+    height: 100%;
+  }
+
+}

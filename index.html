@@ -19,6 +19,7 @@
 
 </head>
 <body>
+<div class="wrapper">
   <nav class="navbar navbar-default navbar-custom">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -41,7 +42,6 @@
       <!--/.nav-collapse -->
     </div>
   </nav>
-
     <section class="container1">
       <h1 id='thisState'>Person.create</h1>
       <h1 id='thisState' style="color:skyblue"> = </h1>
@@ -90,7 +90,7 @@
 
     <section class="container4">
       <div id="contact" class="contact">
-        <div class="col-md-12 col-sm-12">
+
           <h1>Get In Touch</h1>
           <hr>
           <p>Do you have an interesting project?
@@ -98,12 +98,12 @@
           or simply want to have a chat?
           Shoot me email! I will shortly get back to you.
           Let's make a better world together!</p>
-        </div>
-        <div class="col-md-12 col-sm-12">
+
+          <h2>Message</h2>
           <form id="form">
             <div class="form-group">
               <label class='required'><span class="white">Name: </span></label>
-              <input class="form-control" type="text" name="name" value="" placeholder="Enter Name" id="name" required oninvalid="this.setCustomValidity('I want to know your name!')" onchange="this.setCustomValidity('')" type="text" />
+              <input class="form-control" type="text" name="name" value="" placeholder="Enter Name" id="name" required oninvalid="this.setCustomValidity('What is your name?')" onchange="this.setCustomValidity('')" type="text" />
             </div>
             <div class="form-group">
               <label class='required'><span class="white">Email: </span></label>
@@ -111,15 +111,18 @@
             </div>
             <div class="form-group">
               <label class='required'><span class="white">Message: </span></label>
-              <textarea class="form-control" name="message" value="" placeholder="Enter Message" id="message" required oninvalid="this.setCustomValidity('I think you are missing something.')" onchange="this.setCustomValidity('')" type="text" /></textarea>
+              <textarea class="form-control" name="message" value="" placeholder="Enter Message" id="message" required oninvalid="this.setCustomValidity('What do you want to say?')" onchange="this.setCustomValidity('')" type="text" /></textarea>
             </div>
+            <button id="submit "type = "submit" class="btn">Send Message</button>
 
-            <button class="btn"><input id="submit" type="submit" value="Send message"/></button>
-        </div>
-      </div>
+            <hr>
+            <a class="btn-email" href="mailto:ozi0414@gmail.com?Subject=" target="_top">Send Email <i class="fa fa-envelope" aria-hidden="true"></i></a>
+
     </section>
+  <div class="push"></div>
+  </div><!-- end wrapper -->
 
-    <footer>
+    <footer class="footer">
       <div class="socialbtns">
         <ul>
           <li><a target="_blank" href="https://www.instagram.com/jinwoooh/" class="fa fa-lg fa-instagram"></a></li>

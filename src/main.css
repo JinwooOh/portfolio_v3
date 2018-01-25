@@ -1,7 +1,13 @@
+html{
+	height: 100%;
+}
 body {
+   min-height: 100%;
    background: #31343F;
    transition: 1.0s all;
    border:0.3em solid grey;
+   margin: 0;
+
 }
 h1,h2,h3,p{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -75,9 +81,10 @@ p{
 }
 .container4 {
   margin-top: 1.2em;
-  height: 100vh;
+  /* height: 100vh; */
   padding-top:4em;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .contact h1{
@@ -118,12 +125,13 @@ footer{
   border:0.1em solid black;
 }
 
+
 .footer-text{
   color: white;
   text-align: center;
 }
 .btn{
-  position:relative;
+   position:relative;
    width: auto;
    display:inline-block;
    color:#ecf0f1;
@@ -151,7 +159,27 @@ footer{
      position:relative;
      top:4px;
 }
+.btn-email{
+  position:relative;
+  width: 14em;
+  display:inline-block;
+  color:#ecf0f1;
+  text-decoration:none;
+  border-radius:5px;
+  border:solid 1px #f39c12;
+  background:#e67e22;
+  text-align:center;
+  padding:13px 15px 11px;
+  margin: 2px;
 
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+
+  -webkit-box-shadow: 0px 6px 0px #d35400;
+  -moz-box-shadow: 0px 6px 0px #d35400;
+  box-shadow: 0px 6px 0px #d35400;
+}
 
 
 /* minimal sm icons */
@@ -216,4 +244,13 @@ footer{
     -moz-transition: all ease-in 0.5s;
     -webkit-transition: all ease-in 0.5s;
     -o-transition: all ease-in 0.5s;
+}
+
+
+.wrapper {
+
+  margin-bottom: -100px;
+}
+.footer, .push {
+  height: 100px;
 }
