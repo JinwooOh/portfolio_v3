@@ -392,8 +392,8 @@ https://l-lin.github.io/font-awesome-animation/ */
 .faa-ring.animated,
 .faa-ring.animated-hover:hover,
 .faa-parent.animated-hover:hover > .faa-ring {
-  -webkit-animation: ring 2s ease infinite;
-  animation: ring 2s ease infinite;
+  -webkit-animation: ring 1.7s ease infinite;
+  animation: ring 1.7s ease infinite;
   transform-origin-x: 50%;
   transform-origin-y: 0px;
   transform-origin-z: initial;
