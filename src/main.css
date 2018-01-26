@@ -5,7 +5,7 @@ body {
    min-height: 100%;
    background: #31343F;
    transition: 1.0s all;
-   border:0.3em solid grey;
+   /* border:0.3em solid grey; */
    margin: 0;
 
 }
@@ -69,13 +69,13 @@ p{
 }
 .container2 {
   margin-top: 1.2em;
-  height: 100vh;
+  /* height: 100vh; */
   padding-top:4em ;
   text-align: center;
 }
 .container3 {
   margin-top: 1.2em;
-  height: 100vh;
+  /* height: 100vh; */
   padding-top:4em;
   text-align: center;
 }
@@ -84,8 +84,21 @@ p{
   /* height: 100vh; */
   padding-top:4em;
   text-align: center;
+}
+.container5 {
+  margin-top: 1.2em;
+  /* height: 100vh; */
+  padding-top:4em;
+  text-align: center;
   padding-bottom: 50px;
 }
+.container3 h2{
+	/* color: #A2EF9F; */
+}
+.container3 p{
+
+}
+
 
 .contact h1{
 	color: white;
@@ -97,6 +110,9 @@ p{
 
 #aboutMe{
   padding: 3em 2em 2em 2em;
+}
+#skills{
+  padding: 10em 2em 2em 2em;
 }
 #projects{
   padding: 3em 2em 2em 2em;
@@ -122,7 +138,7 @@ p{
 
 footer{
   background-color: gray;
-  border:0.1em solid black;
+  border-top:0.1em solid black;
 }
 
 
@@ -245,6 +261,150 @@ footer{
     -webkit-transition: all ease-in 0.5s;
     -o-transition: all ease-in 0.5s;
 }
+
+
+/* arrow animation from
+https://l-lin.github.io/font-awesome-animation/ */
+@-webkit-keyframes ring {
+  0% {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+
+  2% {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  4% {
+    -webkit-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+
+  6% {
+    -webkit-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+
+  8% {
+    -webkit-transform: rotate(-22deg);
+    transform: rotate(-22deg);
+  }
+
+  10% {
+    -webkit-transform: rotate(22deg);
+    transform: rotate(22deg);
+  }
+
+  12% {
+    -webkit-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+
+  14% {
+    -webkit-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+
+  16% {
+    -webkit-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+  }
+
+  18% {
+    -webkit-transform: rotate(12deg);
+    transform: rotate(12deg);
+  }
+
+  20% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes ring {
+  0% {
+    -webkit-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+
+  2% {
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  4% {
+    -webkit-transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+
+  6% {
+    -webkit-transform: rotate(18deg);
+    -ms-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+
+  8% {
+    -webkit-transform: rotate(-22deg);
+    -ms-transform: rotate(-22deg);
+    transform: rotate(-22deg);
+  }
+
+  10% {
+    -webkit-transform: rotate(22deg);
+    -ms-transform: rotate(22deg);
+    transform: rotate(22deg);
+  }
+
+  12% {
+    -webkit-transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+
+  14% {
+    -webkit-transform: rotate(18deg);
+    -ms-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+
+  16% {
+    -webkit-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+  }
+
+  18% {
+    -webkit-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    transform: rotate(12deg);
+  }
+
+  20% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+.faa-ring.animated,
+.faa-ring.animated-hover:hover,
+.faa-parent.animated-hover:hover > .faa-ring {
+  -webkit-animation: ring 2s ease infinite;
+  animation: ring 2s ease infinite;
+  transform-origin-x: 50%;
+  transform-origin-y: 0px;
+  transform-origin-z: initial;
+}
+#container-arrow{
+	position: absolute;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+}
+
 
 
 .wrapper {
