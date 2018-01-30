@@ -1,4 +1,4 @@
-@media screen and (max-width:500px){
+@media screen and (max-width:520px){
   .container1 h1{
     font-size: 30px;
   }
@@ -12,6 +12,9 @@
      background-color: #31343F;
      background: #31343F;
      border-color: #31343F;
+  }
+  .btn2{
+      width: 25%;
   }
 }
 

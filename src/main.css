@@ -167,13 +167,43 @@ footer{
    box-shadow: 0px 6px 0px #d35400;
  }
 
- .btn:active{
+.btn:active{
      -webkit-box-shadow: 0px 2px 0px #d35400;
      -moz-box-shadow: 0px 2px 0px #d35400;
      box-shadow: 0px 2px 0px #d35400;
      position:relative;
      top:4px;
 }
+.btn2{
+
+   position:relativea;
+   width: 50%;
+   display:inline-block;
+   color:#ecf0f1;
+   text-decoration:none;
+   border-radius:5px;
+   border:solid 1px skyblue;
+   background:#53897D;
+   text-align:center;
+   padding:5px 16px 8px;
+   margin: 12px;
+
+   -webkit-transition: all 0.1s;
+ 	 -moz-transition: all 0.1s;
+ 	 transition: all 0.1s;
+
+   -webkit-box-shadow: 0px 6px 0px #436E64;
+   -moz-box-shadow: 0px 6px 0px #436E64;
+   box-shadow: 0px 6px 0px #436E64;
+}
+.btn2:active{
+     -webkit-box-shadow: 0px 2px 0px #436E64;
+     -moz-box-shadow: 0px 2px 0px #436E64;
+     box-shadow: 0px 2px 0px #436E64;
+     position:relative;
+     top:4px;
+}
+
 .btn-email{
   position:relative;
   width: 14em;
