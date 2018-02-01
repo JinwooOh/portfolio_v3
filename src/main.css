@@ -167,7 +167,7 @@ footer{
    box-shadow: 0px 6px 0px #d35400;
  }
 
-.btn:active{
+.btn:active, .btn:hover {
      -webkit-box-shadow: 0px 2px 0px #d35400;
      -moz-box-shadow: 0px 2px 0px #d35400;
      box-shadow: 0px 2px 0px #d35400;
@@ -185,7 +185,7 @@ footer{
    border:solid 1px skyblue;
    background:#53897D;
    text-align:center;
-   padding:2px 16px 2px;
+   padding:5px 16px 5px;
    margin: 12px;
 
    -webkit-transition: all 0.1s;
@@ -196,7 +196,7 @@ footer{
    -moz-box-shadow: 0px 6px 0px #436E64;
    box-shadow: 0px 6px 0px #436E64;
 }
-.btn2:active{
+.btn2:active, .btn2:hover{
      -webkit-box-shadow: 0px 2px 0px #436E64;
      -moz-box-shadow: 0px 2px 0px #436E64;
      box-shadow: 0px 2px 0px #436E64;
@@ -216,6 +216,7 @@ footer{
   text-align:center;
   padding:13px 15px 11px;
   margin: 2px;
+  margin-top: 15%;
 
   -webkit-transition: all 0.1s;
   -moz-transition: all 0.1s;
@@ -225,7 +226,13 @@ footer{
   -moz-box-shadow: 0px 6px 0px #d35400;
   box-shadow: 0px 6px 0px #d35400;
 }
-
+.btn-email:active, .btn-email:hover{
+     -webkit-box-shadow: 0px 2px 0px #436E64;
+     -moz-box-shadow: 0px 2px 0px #436E64;
+     box-shadow: 0px 2px 0px #436E64;
+     position:relative;
+     top:4px;
+}
 
 /* minimal sm icons */
 .socialbtns{
