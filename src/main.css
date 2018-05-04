@@ -1,44 +1,47 @@
-html{
-	height: 100%;
+html {
+  height: 100%;
 }
 body {
-   min-height: 100%;
-   background: #31343F;
-   transition: 1.0s all;
-   /* border:0.3em solid grey; */
-   margin: 0;
-
+  min-height: 100%;
+  background: #31343f;
+  transition: 1s all;
+  /* border:0.3em solid grey; */
+  margin: 0;
 }
-h1,h2,h3,p{
+h1,
+h2,
+h3,
+p {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-.navbar-brand
-{
-    position: fixed;
-    margin: auto;
-    font-size: 2em;
+.navbar-brand {
+  position: fixed;
+  margin: auto;
+  font-size: 2em;
 }
-b{
+b {
   font-size: 1.2em;
 }
 .navbar {
-   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
 }
 .navbar-default .navbar-brand {
   color: white;
   font-weight: bold;
 }
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
   color: white;
 }
-ul.nav a:hover { color: #A2EF9F !important; }
+ul.nav a:hover {
+  color: #a2ef9f !important;
+}
 
 .navbar-default .navbar-header a:hover {
-  color: #E14D3D;
+  color: #e14d3d;
 }
-hr{
+hr {
   display: block;
   height: 1px;
   border: 0;
@@ -46,175 +49,170 @@ hr{
   margin: 1em 0;
   border-color: white;
 }
-p{
+p {
   font-size: 1.3em;
   line-height: 1.8em;
 }
 
 .changeColor1 {
-   background: #434756;
+  background: #434756;
 }
 .changeColor2 {
-   background: #6f7690;
+  background: #6f7690;
 }
 .changeColor3 {
-   background: #9a9fb1;
+  background: #9a9fb1;
 }
 .container1 {
   height: 100vh;
-  padding-top:4em;
+  padding-top: 4em;
   text-align: center;
   font-size: 5vh;
 }
 .container2 {
   margin-top: 1.2em;
   /* height: 100vh; */
-  padding-top:4em ;
+  padding-top: 4em;
   text-align: center;
 }
 .container3 {
   margin-top: 1.2em;
   /* height: 100vh; */
-  padding-top:4em;
+  padding-top: 4em;
   text-align: center;
 }
 .container4 {
   margin-top: 1.2em;
   /* height: 100vh; */
-  padding-top:4em;
+  padding-top: 4em;
   text-align: center;
 }
 .container5 {
   margin-top: 1.2em;
   /* height: 100vh; */
-  padding-top:4em;
+  padding-top: 4em;
   text-align: center;
   padding-bottom: 50px;
 }
-.container3 h2{
-	/* color: #A2EF9F; */
+.container3 h2 {
+  /* color: #A2EF9F; */
 }
-.container3 p{
-
-}
-
-
-.contact h1{
-	color: white;
-
-}
-.contact p{
-	color: white;
+.container3 p {
 }
 
-#aboutMe{
+.contact h1 {
+  color: white;
+}
+.contact p {
+  color: white;
+}
+
+#aboutMe {
   padding: 3em 2em 2em 2em;
 }
-#skills{
+#skills {
   padding: 10em 2em 2em 2em;
 }
-#projects{
+#projects {
   padding: 3em 2em 2em 2em;
 }
-#contact{
+#contact {
   padding: 10em 2em 2em 2em;
 }
 
-
-
-#thisState{
-  color: #E14D3D;
+#thisState {
+  color: #e14d3d;
   display: inline;
 }
-#props{
-  color: #9EA1B3;
+#props {
+  color: #9ea1b3;
   display: inline;
 }
-#assign{
+#assign {
   color: green;
 }
-* { color:#fff; text-decoration: none;}
-
-footer{
-  background-color: gray;
-  border-top:0.1em solid black;
+* {
+  color: #fff;
+  text-decoration: none;
 }
 
-
-.footer-text{
+.footer-text {
   color: white;
   text-align: center;
-}
-.btn{
-   position:relative;
-   width: auto;
-   display:inline-block;
-   color:#ecf0f1;
-   text-decoration:none;
-   border-radius:5px;
-   border:solid 1px #f39c12;
-   background:#e67e22;
-   text-align:center;
-   padding:16px 18px 14px;
-   margin: 12px;
-
-   -webkit-transition: all 0.1s;
- 	 -moz-transition: all 0.1s;
- 	 transition: all 0.1s;
-
-   -webkit-box-shadow: 0px 6px 0px #d35400;
-   -moz-box-shadow: 0px 6px 0px #d35400;
-   box-shadow: 0px 6px 0px #d35400;
- }
-
-.btn:active, .btn:hover {
-     -webkit-box-shadow: 0px 2px 0px #d35400;
-     -moz-box-shadow: 0px 2px 0px #d35400;
-     box-shadow: 0px 2px 0px #d35400;
-     position:relative;
-     top:4px;
-}
-.btn2{
-
-   position:relativea;
-   width: 50%;
-   display:inline-block;
-   color:#ecf0f1;
-   text-decoration:none;
-   border-radius:5px;
-   border:solid 1px skyblue;
-   background:#53897D;
-   text-align:center;
-   padding:5px 16px 5px;
-   margin: 12px;
-
-   -webkit-transition: all 0.1s;
- 	 -moz-transition: all 0.1s;
- 	 transition: all 0.1s;
-
-   -webkit-box-shadow: 0px 6px 0px #436E64;
-   -moz-box-shadow: 0px 6px 0px #436E64;
-   box-shadow: 0px 6px 0px #436E64;
-}
-.btn2:active, .btn2:hover{
-     -webkit-box-shadow: 0px 2px 0px #436E64;
-     -moz-box-shadow: 0px 2px 0px #436E64;
-     box-shadow: 0px 2px 0px #436E64;
-     position:relative;
-     top:4px;
+  padding-bottom: 12px;
 }
 
-.btn-email{
-  position:relative;
+.btn {
+  position: relative;
+  width: auto;
+  display: inline-block;
+  color: #ecf0f1;
+  text-decoration: none;
+  border-radius: 5px;
+  border: solid 1px #f39c12;
+  background: #e67e22;
+  text-align: center;
+  padding: 16px 18px 14px;
+  margin: 12px;
+
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+
+  -webkit-box-shadow: 0px 6px 0px #d35400;
+  -moz-box-shadow: 0px 6px 0px #d35400;
+  box-shadow: 0px 6px 0px #d35400;
+}
+
+.btn:active,
+.btn:hover {
+  -webkit-box-shadow: 0px 2px 0px #d35400;
+  -moz-box-shadow: 0px 2px 0px #d35400;
+  box-shadow: 0px 2px 0px #d35400;
+  position: relative;
+  top: 4px;
+}
+.btn2 {
+  position: relativea;
+  width: 50%;
+  display: inline-block;
+  color: #ecf0f1;
+  text-decoration: none;
+  border-radius: 5px;
+  border: solid 1px skyblue;
+  background: #53897d;
+  text-align: center;
+  padding: 5px 16px 5px;
+  margin: 12px;
+
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+
+  -webkit-box-shadow: 0px 6px 0px #436e64;
+  -moz-box-shadow: 0px 6px 0px #436e64;
+  box-shadow: 0px 6px 0px #436e64;
+}
+.btn2:active,
+.btn2:hover {
+  -webkit-box-shadow: 0px 2px 0px #436e64;
+  -moz-box-shadow: 0px 2px 0px #436e64;
+  box-shadow: 0px 2px 0px #436e64;
+  position: relative;
+  top: 4px;
+}
+
+.btn-email {
+  position: relative;
   width: 14em;
-  display:inline-block;
-  color:#ecf0f1;
-  text-decoration:none;
-  border-radius:5px;
-  border:solid 1px #f39c12;
-  background:#e67e22;
-  text-align:center;
-  padding:13px 15px 11px;
+  display: inline-block;
+  color: #ecf0f1;
+  text-decoration: none;
+  border-radius: 5px;
+  border: solid 1px #f39c12;
+  background: #e67e22;
+  text-align: center;
+  padding: 13px 15px 11px;
   margin: 2px;
   margin-top: 15%;
 
@@ -226,78 +224,64 @@ footer{
   -moz-box-shadow: 0px 6px 0px #d35400;
   box-shadow: 0px 6px 0px #d35400;
 }
-.btn-email:active, .btn-email:hover{
-     -webkit-box-shadow: 0px 2px 0px #436E64;
-     -moz-box-shadow: 0px 2px 0px #436E64;
-     box-shadow: 0px 2px 0px #436E64;
-     position:relative;
-     top:4px;
+.btn-email:active,
+.btn-email:hover {
+  -webkit-box-shadow: 0px 2px 0px #436e64;
+  -moz-box-shadow: 0px 2px 0px #436e64;
+  box-shadow: 0px 2px 0px #436e64;
+  position: relative;
+  top: 4px;
 }
 
 /* minimal sm icons */
-.socialbtns{
+.socialbtns {
   text-align: center;
 }
 
-.socialbtns, .socialbtns ul, .socialbtns li {
-    margin: 0;
-    padding: 5px;
-    text-align: center;
+.socialbtns,
+.socialbtns ul,
+.socialbtns li {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
 }
 
 .socialbtns li {
-    list-style: none outside none;
-    display: inline-block;
+  list-style: none outside none;
+  display: inline-block;
 }
 
 .socialbtns .fa {
-    color: #FFF;
-    text-shadow: 1px 1px 0px #000,
-            1px -1px 0px #000,
-            -1px 1px 0px #000,
-            -1px -1px 0px #000;
-    -webkit-text-shadow: 1px 1px 0px #000,
-            1px -1px 0px #000,
-            -1px 1px 0px #000,
-            -1px -1px 0px #000;
-    -moz-text-shadow: 1px 1px 0px #000,
-            1px -1px 0px #000,
-            -1px 1px 0px #000,
-            -1px -1px 0px #000;
-    -o-text-shadow: 1px 1px 0px #000,
-            1px -1px 0px #000,
-            -1px 1px 0px #000,
-            -1px -1px 0px #000;
-    transition: all ease-out 0.5s;
-    -moz-transition: all ease-out 0.5s;
-    -webkit-transition: all ease-out 0.5s;
-    -o-transition: all ease-out 0.5s;
+  color: #fff;
+  text-shadow: 1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000,
+    -1px -1px 0px #000;
+  -webkit-text-shadow: 1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000,
+    -1px -1px 0px #000;
+  -moz-text-shadow: 1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000,
+    -1px -1px 0px #000;
+  -o-text-shadow: 1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000,
+    -1px -1px 0px #000;
+  transition: all ease-out 0.5s;
+  -moz-transition: all ease-out 0.5s;
+  -webkit-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
 }
 
 .socialbtns .fa:hover {
-    color: #000;
-    text-shadow: 1px 1px 0px #fff,
-            1px -1px 0px #fff,
-            -1px 1px 0px #fff,
-            -1px -1px 0px #fff;
-    -webkit-text-shadow: 1px 1px 0px #fff,
-            1px -1px 0px #fff,
-            -1px 1px 0px #fff,
-            -1px -1px 0px #fff;
-    -moz-text-shadow: 1px 1px 0px #fff,
-            1px -1px 0px #fff,
-            -1px 1px 0px #fff,
-            -1px -1px 0px #fff;
-    -o-text-shadow: 1px 1px 0px #fff,
-            1px -1px 0px #fff,
-            -1px 1px 0px #fff,
-            -1px -1px 0px #fff;
-    transition: all ease 0.5s;
-    -moz-transition: all ease-in 0.5s;
-    -webkit-transition: all ease-in 0.5s;
-    -o-transition: all ease-in 0.5s;
+  color: #000;
+  text-shadow: 1px 1px 0px #fff, 1px -1px 0px #fff, -1px 1px 0px #fff,
+    -1px -1px 0px #fff;
+  -webkit-text-shadow: 1px 1px 0px #fff, 1px -1px 0px #fff, -1px 1px 0px #fff,
+    -1px -1px 0px #fff;
+  -moz-text-shadow: 1px 1px 0px #fff, 1px -1px 0px #fff, -1px 1px 0px #fff,
+    -1px -1px 0px #fff;
+  -o-text-shadow: 1px 1px 0px #fff, 1px -1px 0px #fff, -1px 1px 0px #fff,
+    -1px -1px 0px #fff;
+  transition: all ease 0.5s;
+  -moz-transition: all ease-in 0.5s;
+  -webkit-transition: all ease-in 0.5s;
+  -o-transition: all ease-in 0.5s;
 }
-
 
 /* arrow animation from
 https://l-lin.github.io/font-awesome-animation/ */
@@ -434,19 +418,13 @@ https://l-lin.github.io/font-awesome-animation/ */
   transform-origin-y: 0px;
   transform-origin-z: initial;
 }
-#container-arrow{
-	position: absolute;
-	bottom: 0;
-	margin: auto;
-	width: 100%;
+#container-arrow {
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
 }
-
-
 
 .wrapper {
-
   margin-bottom: -100px;
-}
-.footer, .push {
-  height: 100px;
 }
