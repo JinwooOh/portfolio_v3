@@ -8,6 +8,9 @@
 
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+
+
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -19,6 +22,7 @@
   <link rel="stylesheet" href="./src/responsive.css">
 
   <title>Jinwoo Oh</title>
+  <link rel="icon" href="favicon.ico" type="./image/x-icon" />
 </head>
 
 <body>
@@ -34,7 +38,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">J</a>
+          <div class="navbar-brand">
+            <a class="navbar-brand navbar-brand-1" href="index.html">J</a>
+
+          </div>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -56,30 +63,31 @@
       </div>
     </nav>
     <section class="container1">
-      <h1 id='thisState'>Person.create</h1>
+      <h1 id='thisState'>Web-developer</h1>
       <h1 id='thisState' style="color:skyblue"> = </h1>
       <h1 id='thisState' style="color:#9EA1B3"> { </h1>
       <br>
       <h1 id='props'>name: </h1>
-      <h1 id='props' style="color:#A2EF9F">Jinwoo,</h1>
+      <h1 id='props' class="col-green">Jinwoo,</h1>
       <br>
-      <h1 id='props'>Jobs: </h1>
-      <h1 id='props' style="color:#A2EF9F">[Web-developer],</h1>
+      <h1 id='props'>Position: </h1>
+      <h1 id='props' class="col-green">Full stack</h1>
       <br>
       <h1 id='props'>
-        gifts:
-        <a href="" class="typewrite" data-period="2000" data-type='["Creative,", "Passionate,",
-        "ComputerScientist,"]'>
+        Strenths:
+        <a href="" class="typewrite" data-period="800" data-type='["Fast Learner",
+        "Computer Scientist", "Detail Oriented"]'>
           <span class="wrap"></span>
         </a>
       </h1>
       <br>
       <h1 id='props'>location: </h1>
-      <h1 id='props' style="color:#A2EF9F">Madison </h1>
+      <h1 id='props' class="col-green">Madison, WI</h1>
       <h1 id='thisState' style="color:#9EA1B3">}</h1>
       <div id="container-arrow">
         <i class="arrow fa fa-arrow-circle-o-down faa-ring animated" aria-hidden="true"></i>
       </div>
+
     </section>
 
     <section class="container2">
@@ -87,11 +95,14 @@
         <h1>About Me</h1>
         <hr>
 
-        <p>I am passionate about programming and am interested in web development. I have experience of working in the game
-          industry for three years as a game designer and a producer. Striving of creating my own program makes me become
-          a programmer and a university student again. I am currently focusing on learning web development along with studying
-          computer science courses from UW-Madison. </p>
-        <p>In my free time, I like to ride a bicycle that takes me anywhere. Recently, I finished bike tour from Madison to
+        <p>
+          <span class="col-green">I am passionate</span> about programming and am interested in web development. I have experience of working in
+          the game industry for three years as a game designer and a producer.
+          <p>
+            <span class="col-green">Striving of creating</span> my own program makes me become a programmer and a university student again. I am
+            currently focusing on learning web development along with studying computer science courses from UW-Madison.</p>
+        </p>
+        <p>In my free time, I like to ride a bicycle that takes me anywhere, Recently, I finished bike tour from Madison to
           Minneapolis.
         </p>
         <a href="./files/Resume_JinwooOh.pdf" download>
@@ -109,22 +120,21 @@
         <div class="col col-sm-4">
           <img src="./images/code.png" />
           <h2>Web</h2>
-          <p style="color:#A2EF9F">HTML, CSS, Javascript</p>
-          <p>I found that I enjoy Front end development that I can combine beautiful designs and functional codes. I can do
-            CSS/HTML and JavaScript.</p>
+          <p class="col-green">HTML, CSS, Javascript</p>
+          <p>I found that I enjoy Front end development that I can combine beautiful designs and functional codes.</p>
         </div>
         <div class="col col-sm-4">
           <img src="./images/tools.png" />
           <h2>Frameworks</h2>
-          <p style="color:#A2EF9F">React, CSS Grid, Bootstrap</p>
+          <p class="col-green">React, Express</p>
           <p>I know that frameworks can enhance web experience as well as it helps to develop web application efficiently. I
             am constantly learning various frameworks.</p>
         </div>
         <div class="col col-sm-4">
           <img src="./images/others.png" />
           <h2>Others</h2>
-          <p style="color:#A2EF9F">Git, Java, Responsive Design, Gulp</p>
-          <p>I also know other technologies that help me to develop web application. </p>
+          <p class="col-green">Sass, Mysql, MongoDB, Git, Java</p>
+          <p>I also know other technologies that help me to develop web application to reach my goal. </p>
         </div>
 
       </div>
@@ -134,55 +144,16 @@
       <div id='projects'>
         <h1>Projects</h1>
         <hr>
-        <div class="col col-sm-4">
-          <img src="./images/cal.png" />
-          <br> Calculator
-          <br>
-          <a href="https://calculator-react-jin.herokuapp.com/" target="_blank">
-            <button class="btn2">Demo</button>
-          </a>
-        </div>
-        <div class="col col-sm-4">
-          <img src="./images/checklist.png" />
-          <br> Todo
-          <br>
-          <a href="https://todo-react-jin.herokuapp.com/" target="_blank">
-            <button class="btn2">Demo</button>
-          </a>
-        </div>
-        <div class="col col-sm-4">
-          <img src="./images/dictionary.png" />
-          <br> Text Diff
-          <br>
-          <a href="https://github.com/JinwooOh/text-comparison" target="_blank">
-            <button class="btn2">Link</button>
-          </a>
-        </div>
+        <p>I have created several websites and wep applications with modern technologies. Take a look at my work.
+        </p>
 
-        <div class="col col-sm-4">
-          <img src="./images/quiz.png" />
-          <br> Quiz Maker
-          <br>
-          <a href="https://github.com/JinwooOh/quiz_maker" target="_blank">
-            <button class="btn2">Link</button>
-          </a>
-        </div>
-        <div class="col col-sm-4">
-          <br>
 
-        </div>
-        <div class="col col-sm-4">
-          <img src="./images/weather.png" />
-          <br> Weather
-          <br>
-          <a href="http://jin-weather.herokuapp.com/" target="_blank">
-            <button class="btn2">Demo</button>
-          </a>
-        </div>
+
+
       </div>
 
       <a href="https://github.com/JinwooOh" target="_blank">
-        <button class="btn" style="margin-top:10%">Learn More</button>
+        <button class="btn">My Github Link</button>
       </a>
 
   </div>
@@ -196,21 +167,7 @@
       <p>Do you have an interesting project? Interested in doing a project together? or simply want to have a chat? Shoot me
         email! I will shortly get back to you. Let's make a better world together!</p>
 
-      <!-- <h2>Message</h2>
-               <form id="form">
-               <div class="form-group">
-               <label class='required'><span class="white">Name: </span></label>
-               <input class="form-control" type="text" name="name" value="" placeholder="Enter Name" id="name" required oninvalid="this.setCustomValidity('What is your name?')" onchange="this.setCustomValidity('')" type="text" />
-               </div>
-               <div class="form-group">
-               <label class='required'><span class="white">Email: </span></label>
-               <input class="form-control" type="text" name="email" value="" placeholder="Enter Email" id="email" required oninvalid="this.setCustomValidity('What is your email address?')" onchange="this.setCustomValidity('')" type="text" />
-               </div>
-               <div class="form-group">
-               <label class='required'><span class="white">Message: </span></label>
-               <textarea class="form-control" name="message" value="" placeholder="Enter Message" id="message" required oninvalid="this.setCustomValidity('What do you want to say?')" onchange="this.setCustomValidity('')" type="text" /></textarea>
-               </div>
-               <button id="submit "type = "submit" class="btn">Send Message</button> -->
+
 
 
       <a class="btn-email" href="mailto:ozi0414@gmail.com?Subject=" target="_top">Send Email
@@ -248,3 +205,51 @@
 
 </html>
 <div class="test1" style="color: #999"></div>
+
+
+
+<!-- <div class="col col-sm-4">
+  <img src="./images/cal.png" />
+  <br> Calculator
+  <br>
+  <a href="https://calculator-react-jin.herokuapp.com/" target="_blank">
+    <button class="btn2">Demo</button>
+  </a>
+</div>
+<div class="col col-sm-4">
+  <img src="./images/checklist.png" />
+  <br> Todo
+  <br>
+  <a href="https://todo-react-jin.herokuapp.com/" target="_blank">
+    <button class="btn2">Demo</button>
+  </a>
+</div>
+<div class="col col-sm-4">
+  <img src="./images/dictionary.png" />
+  <br> Text Diff
+  <br>
+  <a href="https://github.com/JinwooOh/text-comparison" target="_blank">
+    <button class="btn2">Link</button>
+  </a>
+</div>
+
+<div class="col col-sm-4">
+  <img src="./images/quiz.png" />
+  <br> Quiz Maker
+  <br>
+  <a href="https://github.com/JinwooOh/quiz_maker" target="_blank">
+    <button class="btn2">Link</button>
+  </a>
+</div>
+<div class="col col-sm-4">
+  <br>
+
+</div>
+<div class="col col-sm-4">
+  <img src="./images/weather.png" />
+  <br> Weather
+  <br>
+  <a href="http://jin-weather.herokuapp.com/" target="_blank">
+    <button class="btn2">Demo</button>
+  </a>
+</div> -->
